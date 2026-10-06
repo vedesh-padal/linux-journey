@@ -37,8 +37,8 @@ Legend: ⬜ not started · 🟨 in progress · ✅ done
 
 | Day | Topic | Status | My notes | Course material |
 | --- | ----- | :----: | -------- | --------------- |
-| 00 | Introduction & Course Goals | ⬜ | [notes](days/day_00/notes.md) | [source](https://github.com/Sagar2366/linux_the_final_boss/blob/main/Day_00/notes_and_exercises.md) |
-| 01 | What is Linux? Kernel, Distributions, and Ecosystem | ⬜ | [notes](days/day_01/notes.md) | [source](https://github.com/Sagar2366/linux_the_final_boss/blob/main/Day_01/notes_and_exercises.md) |
+| 00 | Introduction & Course Goals | ✅ | [notes](days/day_00/notes.md) | [source](https://github.com/Sagar2366/linux_the_final_boss/blob/main/Day_00/notes_and_exercises.md) |
+| 01 | What is Linux? Kernel, Distributions, and Ecosystem | ✅ | [notes](days/day_01/notes.md) | [source](https://github.com/Sagar2366/linux_the_final_boss/blob/main/Day_01/notes_and_exercises.md) |
 | 02 | Virtualization & Setting Up Linux (VM, WSL, Cloud) | ⬜ | [notes](days/day_02/notes.md) | [source](https://github.com/Sagar2366/linux_the_final_boss/blob/main/Day_02/notes_and_exercises.md) |
 | 03 | Linux Folder Structure & File Types | ⬜ | [notes](days/day_03/notes.md) | [source](https://github.com/Sagar2366/linux_the_final_boss/blob/main/Day_03/notes_and_exercises.md) |
 | 04 | Linux Boot Process & Service Management | ⬜ | [notes](days/day_04/notes.md) | [source](https://github.com/Sagar2366/linux_the_final_boss/blob/main/Day_04/notes_and_exercises.md) |
