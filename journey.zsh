@@ -31,8 +31,25 @@ newday() {          # newday 5 → create day folder, start logging, cd in
   lday "$1" && cd "$dir"
 }
 
-lpick() {           # lpick 5 >> commands.sh → multi-select successful commands
+lpick() {           # lpick 5 → fzf multi-select of successful commands (prints selection)
   local d=$(printf "%02d" "$1")
   grep -F ' rc=0 ' "$JOURNEY_DIR/raw/day_$d.log" \
     | sed 's/^[^|]*| //' | awk '!seen[$0]++' | fzf -m --tac
+}
+
+lkeep() {           # lkeep 5 → pick commands, comment each, save to day_05/commands.sh
+  local d=$(printf "%02d" "$1") note cmd picked
+  local log="$JOURNEY_DIR/raw/day_$d.log"
+  local out="$JOURNEY_DIR/days/day_$d/commands.sh"
+  [[ -f $log ]] || { echo "no log for day $d (looked for $log)"; return 1; }
+  mkdir -p "${out:h}"
+  picked=$(lpick "$1") || { echo "cancelled"; return 1; }   # Esc cancels
+  [[ -z $picked ]] && { echo "nothing selected"; return 1; }
+  local -a picks=("${(@f)picked}")                          # one array item per line
+  for cmd in $picks; do
+    echo; echo "▶ $cmd"
+    read -r "note?   comment (Enter to skip): "
+    { [[ -n $note ]] && print -r -- "# $note"; print -r -- "$cmd"; print; } >> "$out"
+  done
+  echo "saved → $out"
 }
