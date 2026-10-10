@@ -39,9 +39,9 @@ Legend: ⬜ not started · 🟨 in progress · ✅ done
 | --- | ----- | :----: | -------- | --------------- |
 | 00 | Introduction & Course Goals | ✅ | [notes](days/day_00/notes.md) | [source](https://github.com/Sagar2366/linux_the_final_boss/blob/main/Day_00/notes_and_exercises.md) |
 | 01 | What is Linux? Kernel, Distributions, and Ecosystem | ✅ | [notes](days/day_01/notes.md) | [source](https://github.com/Sagar2366/linux_the_final_boss/blob/main/Day_01/notes_and_exercises.md) |
-| 02 | Virtualization & Setting Up Linux (VM, WSL, Cloud) | ⬜ | [notes](days/day_02/notes.md) | [source](https://github.com/Sagar2366/linux_the_final_boss/blob/main/Day_02/notes_and_exercises.md) |
-| 03 | Linux Folder Structure & File Types | ⬜ | [notes](days/day_03/notes.md) | [source](https://github.com/Sagar2366/linux_the_final_boss/blob/main/Day_03/notes_and_exercises.md) |
-| 04 | Linux Boot Process & Service Management | ⬜ | [notes](days/day_04/notes.md) | [source](https://github.com/Sagar2366/linux_the_final_boss/blob/main/Day_04/notes_and_exercises.md) |
+| 02 | Virtualization & Setting Up Linux (VM, WSL, Cloud) | ✅ | [notes](days/day_02/notes.md) | [source](https://github.com/Sagar2366/linux_the_final_boss/blob/main/Day_02/notes_and_exercises.md) |
+| 03 | Linux Folder Structure & File Types | ✅ | [notes](days/day_03/notes.md) | [source](https://github.com/Sagar2366/linux_the_final_boss/blob/main/Day_03/notes_and_exercises.md) |
+| 04 | Linux Boot Process & Service Management | ✅ | [notes](days/day_04/notes.md) | [source](https://github.com/Sagar2366/linux_the_final_boss/blob/main/Day_04/notes_and_exercises.md) |
 | 05 | Basic Linux Commands for DevOps Engineers | ⬜ | [notes](days/day_05/notes.md) | [source](https://github.com/Sagar2366/linux_the_final_boss/blob/main/Day_05/notes_and_exercises.md) |
 | 06 | Advanced Linux Commands (grep, awk, sed, find, xargs, etc.) | ⬜ | [notes](days/day_06/notes.md) | [source](https://github.com/Sagar2366/linux_the_final_boss/blob/main/Day_06/notes_and_exercises.md) |
 | 07 | Users, Groups & Permissions | ⬜ | [notes](days/day_07/notes.md) | [source](https://github.com/Sagar2366/linux_the_final_boss/blob/main/Day_07/notes_and_exercises.md) |
